@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <div class="container">
+      <header>
+        <div class="title">Product List</div>
+        <div class="icon-cat">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>0</span>
+        </div>
+      </header>
+
+      <div class="listProduct">
+        <div class="item">
+            <img src="items/img1.jpeg" alt="">
+            <h2>Name Product</h2>
+            <div class="price">$200</div>
+            <button class="addCart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- shopping cart -->
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart">
+        <!-- add item -->
+        <div class="item">
+          <div class="image">
+            <img src="items/img1.jpeg" alt="">
+          </div>
+          <div class="name">Name</div>
+          <div class="totalPrice">$200</div>
+          <div class="quantity">
+            <span class="minus"><</span>
+            <span>1</span>
+            <span class="plus">></span>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+      <div class="btn">
+        <button class="close">Close</button>
+        <button class="checkOut">Check Out</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
